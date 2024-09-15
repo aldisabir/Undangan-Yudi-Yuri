@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'rollerCoaster';
+    src: url(RollerCoaster.ttf);
+}
+
+@font-face {
+    font-family: 'breathney';
+    src: url(BreathneyDemo.ttf);
+}
+
+@font-face {
+    font-family: 'publicSans';
+    src: url(PublicSans.ttf);
+}
+
+section {
+    background-image: url(bg-undangan.jpg);
+    background-size: cover;
+}
+
+div#sampul{
+    background-image: url(Foto-Depan.jpg);
+    background-size: cover;
+}
+
+p#publicSans{
+    font-family: publicSans,sans-serif;
+}
+
+p#roller-coaster {
+    font-family: rollerCoaster,serif;
+}
+
+h1 {
+    font-family: breathney,serif;
+}

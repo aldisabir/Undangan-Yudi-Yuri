@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'rollerCoaster';
+    src: url(RollerCoaster.ttf);
+}
+
+@font-face {
+    font-family: 'breathney';
+    src: url(BreathneyDemo.ttf);
+}
+
+@font-face {
+    font-family: 'publicSans';
+    src: url(PublicSans.ttf);
+}
+
+p#roller-coaster {
+    font-family: rollerCoaster,serif;
+}
+
+p#publicSans {
+    font-family: publicSans, sans-serif;
+}
+
+p#breathney {
+    font-family: breathney,serif;
+}
+
+p#nama-yuri , p#nama-yudi {
+    font-family: rollerCoaster, serif;
+}
+
+figure#sunset {
+    background: url(Sunset.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+section {
+    background-image: url(bg-undangan.jpg);
+    background-size: cover;
+}
+
+div#yudi-solo{
+    background-image: url(IMG_yudi.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+div#yuri-solo{
+    background-image: url(IMG_yuri.JPG);
+    background-size: cover;
+    background-position: left;
+}
+
+
+img {
+    object-fit: cover;
+    object-position: center;
+}
