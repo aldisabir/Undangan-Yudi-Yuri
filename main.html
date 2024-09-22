@@ -2,6 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Undangan Pernikahan Yudi dan Yuri">
+    <meta name="description" content="Undangan yang dibuat untuk Bapak/Ibu/Saudara(i) yang istimewa. Mohon Doa Restunya">
+    <meta name="image" itemprop="image" content="Foto-Depan.jpg">
     <title>Wedding Of Yudi & Yuri</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="main.css">
@@ -9,18 +12,66 @@
 </head>
 
 
-<body>
+<body class="bg-yellow-200">
 
-    <audio id="bg-audio" src="Janji-Suci.mp3" autoplay loop></audio>
+    <section id="cover" class="z-30 fixed flex justify-center items-center min-h-screen min-w-full">
+        <div id="sampul" class="flex flex-col justify-between items-center pt-8 rounded-t-[70px] shadow-2xl rounded-b-2xl min-h-[500px] min-w-72">
+            
+            <h1 class="text-xl text-yellow-500 font-medium">
+                Undangan Pernikahan.
+            </h1>
 
-    <nav class="flex flex-col items-center min-w-10 max-w-10 justify-between text-center left-2 rounded-2xl fixed shadow-md shadow-black backdrop-blur-[1px] py-2 px-1 top-2 bottom-2">
+            <div class="flex flex-col justify-end text-center pb-3 pt-11 min-w-72 min-h-60 items-center rounded-b-2xl bg-gradient-to-t from-black via-black/85 to-transparent">
+
+                <div class="flex gap-2 text-4xl text-yellow-500 mb-2 font-serif text-center">
+
+                    <p id="roller-coaster" class="shadow-2xl shadow-black">
+                        yudi
+                    </p>
+    
+                    <p id="roller-coaster">
+                        &
+                    </p>
+                
+                    <p id="roller-coaster" class="">
+                        yuri
+                    </p>
+    
+                </div>
+
+                <p id="photoShoting" class="text-yellow-500">
+                    "You're Invited"
+                </p>
+                
+                
+                <a id="button" href="#utama">
+                    <button class="flex justify-center items-center py-2 px-4 mt-2 text-base border border-yellow-500 hover:border-black bg-black hover:bg-yellow-500 text-yellow-500 hover:text-black rounded-3xl">
+                        <i class="fa-solid fa-envelope-open-text mr-3"></i>
+                        <p id="publicSans">Buka Undangan</p>
+                    </button>
+                </a>
+            
+            
+            </div>
+
+        </div>
         
-        <ul class="flex flex-col gap-y-5 mt-3">
+    </section>
+
+
+
+    <nav class="flex items-center justify-between text-center rounded-2xl shadow-md shadow-black bg-white/60 backdrop-blur-[1px] px-2 fixed z-10 left-2 right-2 bottom-4">
+        
+        <p>
+            <
+        </p>
+
+        <ul class="flex items-center gap-x-5 ml-2 py-2 max-w-72 overflow-scroll">
 
             <li>
                 <a href="#utama">
 
-                    <i class="fa-solid fa-house text-2xl"></i>
+                    <i class="fa-solid fa-house text-2xl p-2 border-2 border-gray-700 hover:bg-black hover:text-white rounded-xl"></i>
                 
                 </a>
 
@@ -30,7 +81,7 @@
 
                 <a href="#ayat">
 
-                    <i class="fa-solid fa-bookmark text-2xl"></i>
+                    <i class="fa-solid fa-bookmark text-2xl p-2 border-2 border-gray-700 hover:bg-black hover:text-white rounded-xl min-w-12"></i>
                 
                 </a>
             
@@ -40,7 +91,7 @@
                 
                 <a href="#pria">
 
-                    <i class="fa-solid fa-person text-3xl"></i>
+                    <i class="fa-solid fa-person text-3xl p-2 border-2 border-gray-700 hover:bg-black hover:text-white rounded-xl min-w-12 max-h-[52px]"></i>
                 
                 </a>
 
@@ -50,51 +101,54 @@
 
                 <a href="#wanita">
 
-                    <i class="fa-solid fa-person-dress text-3xl"></i>
+                    <i class="fa-solid fa-person-dress text-3xl p-2 border-2 border-gray-700 hover:bg-black hover:text-white rounded-xl min-w-12 max-h-[52px]"></i>
                 
                 </a>
             
             </li>
 
 
+            
+            <li>
+                <a href="#date">
+                    
+                    
+                    <i class="fa-solid fa-calendar-days text-2xl p-2 border-2 border-gray-700 hover:bg-black hover:text-white rounded-xl min-w-12"></i>
+                </a>
+                
+            </li>
+            
             <li>
 
                 <a href="#story">
 
-                    <i class="fa-solid fa-heart text-2xl"></i>
+                    <i class="fa-solid fa-heart text-2xl p-2 border-2 border-gray-700 hover:bg-black hover:text-white rounded-xl min-w-12"></i>
                 
                 </a>
                 
             </li>
-            
-            <li>
-                <a href="#date">
-
-                    
-                    <i class="fa-solid fa-calendar-days text-2xl"></i>
-                </a>
-
-            </li>
-            
             
 
             <li>
 
                 <a href="#gift">
 
-                    <i class="fa-solid fa-gift text-2xl"></i>
+                    <i class="fa-solid fa-gift text-2xl p-2 border-2 border-gray-700 hover:bg-black hover:text-white rounded-xl min-w-12"></i>
 
                 </a>
 
             </li>
 
         </ul>
-
-
+        
+        <p>
+            >
+        </p>
+        
         <button id="play-btn" class="min-h-6 min-w-6 rounded-full border-4 border-double bg-black text-sm text-yellow-500 border-yellow-500 py-1 px-2">
             <i class="fa-solid fa-music text-sm"></i>
         </button>
-
+        
         <button id="pause-btn" class="hidden min-h-6 min-w-6 rounded-full border-4 border-double bg-black text-sm text-yellow-500 border-yellow-500 py-1 px-2">
             <i class="fa-solid fa-volume-xmark"></i>
         </button>
@@ -102,203 +156,212 @@
     
     </nav>
 
-    <section id="utama" class="flex justify-end py-3 min-h-screen items-center">
 
-        <div class="flex flex-col justify-center items-end gap-4 mr-1 text-black p-2">
+    <section id="utama" class="flex justify-center items-center min-h-screen">
+
+        <audio id="bg-audio" src="Janji-Suci.mp3" autoplay muted loop></audio>
+
+        <div id="slide01" class="flex flex-col justify-center items-center text-yellow-950 pt-7 pb-5 px-9">
 
 
-            <p id="roller-coaster" class="font-bold text-3xl">
+            <p id="breathney" class="font-medium text-3xl mt-2 mb-3">
                 The Wedding Of
             </p>
             
-            <main class="py-5 border-black">
+            <main class="pt-5 pb-7 px-5 my-5 text-right border-yellow-950 text-yellow-950 border-y">
 
-                <p id="roller-coaster" class="text-6xl mb-2">
-                    yudi
-                </p>
-                
                 <p id="roller-coaster" class="text-6xl">
-                    yuri
+                    yudi & yuri.
                 </p>
             
             </main>
 
-            <p id="roller-coaster" class="font-bold text-3xl mt-5">
+            <p id="breathney" class="font-medium mt-4 text-3xl">
                 29 . 09 . 24
             </p>
+
+            <i class="fa-brands fa-gratipay text-2xl mt-2 text-yellow-950"></i>
 
         </div>
     
     </section>
 
-    <section id="ayat" class="flex flex-col justify-center py-3 min-h-screen items-end">
+    <section id="ayat" class="flex flex-col justify-center items-center bg-yellow-950">
 
-        <figure id="sunset" class="flex flex-col justify-between items-center shadow-xl shadow-black/80 min-h-[550px] min-w-[250px] max-w-[250px] bg-gradient-to-t from-current to-transparent rounded-2xl pt-3 px-2 mr-2">
+        <figure id="slide02" class="flex flex-col justify-between items-center px-2 py-3">
 
-            
-            <div class="backdrop-blur-[1px] py-2 px-1 rounded-2xl">
+            <i class="fa-brands fa-gratipay text-2xl text-yellow-200"></i>
+
+
+            <div class="p-2 text-yellow-200">
                 
-                <p id="publicSans" class="font-serif font-semibold text-center text-[12px]">
+                <p id="publicSans" class="font-serif font-medium text-center text-[12px]">
                     Bismillahirrahmanirrahim
                 </p>
                 
-                <p id="publicSans" class="font-serif font-semibold text-center text-[12px] my-2">
+                <p id="photoShoting" class="font-serif font-thin tracking-widest text-center text-[12px] my-2">
                     "Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
                 </p>
 
-
-                <p id="roller-coaster" class="text-black text-center text-2xl">
+                <p id="publicSans" class="text-center text-xs">
                     (Ar-Rum : 21)
                 </p>
 
             </div>
+
+            <div id="slide03" class="flex flex-col gap-2 justify-center items-center text-center p-2 text-yellow-200 mt-4">
+
+                <p id="breathney" class="text-sm font-medium border-b border-yellow-200 pb-2">
+                    Assalamu'alaikum Wr. Wb.
+                </p>
+                
+                <p id="publicSans" class="text-xs">
+                    Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud mengundang anda untuk menghadiri acara pernikahan putra-putri kami :   
+                </p>
+                
+            </div>
+
     
         </figure>
     
     </section>
 
-    <section id="pria" class="flex justify-end py-3 min-h-screen items-center">
+    <section id="pria" class="flex justify-center bg-yellow-200 py-3 px-2 items-center">
 
-        <div id="yudi-solo" class="flex justify-end items-end shadow-xl shadow-black/80 min-h-[550px] min-w-[250px] max-w-[250px] border-4 rounded-2xl border-double border-white mr-2">
+        <div class="flex flex-col bg-yellow-200 mt-4">
 
-            <article class="flex flex-col items-end justify-end min-h-96 min-w-[245px] max-w-[245px] rounded-2xl bg-gradient-to-t from-black/90 via-black/80 to-transparent">
+            <article class="flex flex-col m-2 items-center">
+                
+                <div id="foto-yudi" class="flex justify-center items-center">
 
-                <p id="nama-yudi" class="text-yellow-500 underline text-4xl py-2 mr-2 rounded-tl-3xl">
-                    yudi
+                </div>
+                
+                <p id="nama-yudi" class="text-yellow-950 text-4xl py-2">
+                    - yudi -
                 </p>
                 
-                <main class="flex flex-col justify-center items-end text-right pb-2 mr-2">
+            </article>
+
+            <footer id="namaLengkap" class="flex justify-between items-center bg-yellow-950 p-2 mb-4 mt-2">
+
+                <main class="flex flex-col justify-center items-start pr-12 border-r border-yellow-300 text-yellow-300">
                     
-                    <p class="text-base font-serif font-semibold text-yellow-500 my-2">
+                    <p class="text-base font-serif font-semibold">
                         Nur Wahyudi, S.Or.
                     </p>
                     
-                    <p id="publicSans" class="text-xs font-serif font-thin text-yellow-500">
+                    <p id="publicSans" class="text-xs font-serif font-thin">
                         Putra Kedua dari :
                     </p>
                     
-                    <p id="publicSans" class="text-xs font-serif font-thin text-yellow-500">
+                    <p id="publicSans" class="text-xs font-serif font-thin">
                         Bapak H. Mustamin, S.Pd.I. &
                     </p>
 
-                    <p id="publicSans" class="text-xs font-serif font-thin text-yellow-500">
+                    <p id="publicSans" class="text-xs font-serif font-thin">
                         Ibu Hj. St. Rubeda, S.Pd.SD.
                     </p>
                     
-                    
-                    <a href="https://www.instagram.com/tubarimbaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-
-                        <button class="flex justify-center items-center gap-2 text-yellow-500 bg-black border border-yellow-500 px-4 py-1 mt-2 rounded-2xl">
-                            <i class="fa-brands fa-instagram"></i>
-                            <p id="publicSans">tubarimbaa</p>
-                        </button>
-
-                    </a>
-                    
                 </main>
+                    
+                <a href="https://www.instagram.com/tubarimbaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        
+                    <button class="flex justify-center items-center gap-2 bg-yellow-300 text-yellow-950 px-4 py-1 rounded-lg mr-2 hover:bg-yellow-600 hover:text-yellow-50">
+
+                        <i class="fa-brands fa-instagram"></i>
+                        <p id="publicSans">tubarimbaa</p>
+
+                    </button>
+                        
+                </a>
+                    
                 
-            </article>
+            </footer>
         
         </div>
     
     </section>
 
+    <section class="flex justify-center items-center text-center pt-5 pb-1 text-yellow-600 text-8xl">
 
-    <section id="wanita" class="flex justify-end py-3 min-h-screen items-center">
+        <p id="roller-coaster" class="">
+            - & -
+        </p>
 
-        <div id="yuri-solo" class="flex justify-end items-end shadow-xl shadow-black/80 min-h-[550px] min-w-[250px] max-w-[250px] border-4 rounded-2xl border-double border-white mr-2">
+    </section>
 
-            <article class="flex flex-col items-end justify-end min-h-96 min-w-[245px] max-w-[245px] rounded-2xl bg-gradient-to-t from-black/90 via-black/80 to-transparent">
 
-                <p id="nama-yuri" class="text-yellow-500 underline text-4xl py-2 mr-2 rounded-tl-3xl">
-                    yuri
+    <section id="wanita" class="flex justify-end py-3 px-2 items-center">
+
+        <div class="flex flex-col">
+
+            <article class="flex flex-col m-2 items-center">
+                
+                <div id="foto-yuri" class="flex justify-center items-center">
+
+                </div>
+                
+                <p id="nama-yudi" class="text-yellow-950 text-4xl py-2">
+                    - yuri -
                 </p>
                 
-                <main class="flex flex-col justify-center items-end text-right pb-2 mr-2">
+            </article>
+
+            <footer id="namaLengkap" class="flex justify-between items-center mb-4 bg-yellow-950 p-2">
+
+                <main class="flex flex-col justify-center items-start border-r border-yellow-300 text-yellow-300">
                     
-                    <p class="text-sm font-serif font-semibold text-yellow-500 my-2">
+                    <p class="text-xs font-serif text-left font-semibold">
                         A. Yurisya Amalia Kahar, S.Pd.
                     </p>
                     
-                    <p id="publicSans" class="text-xs font-serif font-thin text-yellow-500" >
+                    <p id="publicSans" class="text-xs font-serif font-thin">
                         Putri Pertama dari :
                     </p>
                     
-                    <p id="publicSans" class="text-xs font-serif font-thin text-yellow-500">
-                        Bapak A. Kaharuddin A. Bikoe Baso, SE,Ak.,MM.,CA. & 
+                    <p id="publicSans" class="text-xs font-serif font-thin">
+                        Bapak A. Kaharuddin A. Bikoe Baso, SE,Ak.,MM.,CA. &
                     </p>
 
-                    <p id="publicSans" class="text-xs font-serif font-thin text-yellow-500">
+                    <p id="publicSans" class="text-xs font-serif font-thin">
                         Ibu Hj. Norma Hudang
                     </p>
                     
+                </main>
+                    
                     <a href="https://www.instagram.com/yurisaamalia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-
-                        <button class="flex justify-center items-center gap-2 text-yellow-500 bg-black border border-yellow-500 px-4 py-1 mt-2 rounded-2xl">
+                        
+                        <button class="flex justify-center items-center gap-2 bg-yellow-300 text-yellow-950 px-4 py-1 rounded-lg ml-3 mr-1 hover:bg-yellow-600 hover:text-yellow-50">
                             <i class="fa-brands fa-instagram"></i>
                             <p id="publicSans">yurisaamalia</p>
                         </button>
                         
                     </a>
-
-                </main>
+                    
                 
-            </article>
+            </footer>
         
         </div>
-    
+        
     </section>
 
+    <section id="date" class="flex justify-center py-3">
 
-    <section id="story" class="flex justify-end py-3 items-center min-h-screen">
+        <div class="flex justify-center items-center py-2 px-1">
 
-        <div class="bg-black/80 text-white p-2 shadow-xl shadow-black/80 min-h-[550px] min-w-[250px] max-w-[250px] border-4 rounded-2xl border-double border-white mr-2">
+            <article class="flex flex-col gap-5 justify-center py-3 items-center">
 
-
-            <aside class="flex flex-col items-center">
-
-
-                <p id="breathney" class="font-medium text-xl text-center text-yellow-500 border-b border-yellow-500 max-w-min pb-2 mt-5 mb-7">
-                    Engagement.
-                </p>
-
-                <div class="bg-white p-1 mb-5 rounded-xl">
-
-                    <iframe class="rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/uQixxSxK_Zo?si=oDIzuiSRAAe8saJ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                
-                </div>
-                    
-                <div id="gridPhoto" class="flex overflow-scroll gap-1 py-2 px-1 bg-white">
-
-                    <img src="Foto-Depan.jpg" alt="">
-                    <img src="IMG_2798.jpeg" alt="">
-                    <img src="IMG_7808.jpeg" alt="">
-                    <img src="IMG_2799.jpeg" alt="">
-                    <img src="IMG_7836.jpeg" alt="">
-
-                </div>
-
-            </aside>
-
-        </div>
-    
-    </section>
-
-
-
-    <section id="date" class="flex justify-end py-3 items-center min-h-screen">
-
-        <div class="flex justify-center items-center shadow-xl shadow-black/80 bg-black/80 p-2 min-h-[550px] min-w-[250px] max-w-[250px] border-4 rounded-2xl border-double border-white mr-2">
-
-            <article class="flex flex-col gap-5 justify-center items-center text-white">
-
-                <p id="breathney" class="font-medium text-xl text-center text-yellow-500 border-b border-yellow-500 pb-2 mt-5 mb-2">
+                <p id="breathney" class="font-medium text-xl text-center text-yellow-950 border-b border-yellow-950 pt-2 pb-2 mt-1 mb-2">
                     Save The Date.
                 </p>
-                    
-                <div class="flex flex-col gap-4 px-2">
 
-                    <main class="px-3 py-2 border-4 border-double rounded-3xl gap-1 text-center">
+                <p id="publicSans" class="text-xs text-center text-yellow-950">
+                    InsyaAllah, acara pernikahan putra-putri kami akan dilaksanakan pada :
+                </p>
+                    
+                <div class="grid grid-cols-2 gap-2 p-2">
+
+                    <main class="col-start-1 col-end-2 flex flex-col items-center px-3 py-2 gap-1 text-center text-yellow-950 rounded-xl border border-yellow-950">
                         
                         <i class="fa-regular fa-calendar-days text-2xl"></i>
                         
@@ -309,7 +372,7 @@
                     </main>
 
 
-                    <main class="px-3 py-2 border-4 border-double rounded-3xl gap-1 text-center">
+                    <main class="col-start-2 col-end-3 flex flex-col items-center px-3 py-2 gap-1 text-center text-yellow-950 rounded-xl border border-yellow-950">
 
                         <i class="fa-solid fa-clock text-2xl"></i>
 
@@ -320,7 +383,7 @@
                     </main>
                     
 
-                    <main class="flex flex-col items-center px-3 py-2 border-4 border-double rounded-3xl gap-1 text-center">
+                    <main class="col-start-1 col-end-3 flex flex-col items-center px-3 py-2 gap-1 text-center text-yellow-950 rounded-xl border border-yellow-950">
 
                         <i class=" fa-solid fa-location-dot text-2xl"></i>
                         
@@ -330,7 +393,7 @@
 
                         <a href="https://maps.app.goo.gl/4D2wmmR8C4m72no57?g_st=com.google.maps.preview.copy">
                             
-                            <button class="flex justify-center items-center gap-2 border rounded-full px-3 bg-blue-500 hover:bg-white hover:text-blue-500 hover:border-blue-500 py-1 my-2">
+                            <button class="flex justify-center items-center gap-2 border rounded-full shadow shadow-yellow-950 px-3 text-yellow-200 bg-yellow-950 border-yellow-200 hover:bg-yellow-600 hover:text-yellow-950 hover:border-yellow-950 py-1 my-2">
                                 <i class="fa-solid fa-map-location"></i>
                                 <p id="publicSans">Google Maps</p>
                             </button>
@@ -346,47 +409,132 @@
         </div>
     
     </section>
+    
+    <section id="story" class="flex justify-center py-3 bg-yellow-200 items-center">
+
+        <div class="p-2">
+
+            <aside class="flex flex-col items-center">
 
 
-    <section id="gift" class="flex justify-end py-3 items-center min-h-screen">
+                <p id="breathney" class="font-medium text-xl text-center text-yellow-950 border-b border-yellow-950 max-w-min pb-2 mt-5 mb-7">
+                    Engagement.
+                </p>
+
+                <div id="gridPhoto" class="grid grid-cols-2 max-h-80 overflow-scroll gap-1 py-1 px-1 border-4 border-yellow-950 bg-white">
+
+                    <img id="grid" src="IMG_7808.jpeg" alt="">
+                    <img id="grid" src="IMG_7836.jpeg" alt="">
+                    <img id="grid" src="Foto-Depan.jpg" alt="">
+                    <img id="grid" src="IMG_2798.jpeg" alt="">
+
+                </div>
+
+                <div class="bg-yellow-950 p-1 mt-5 rounded-xl max-h-40">
+
+                    <iframe class="rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/uQixxSxK_Zo?si=oDIzuiSRAAe8saJ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                </div>
+                    
+                <i class="fa-brands fa-gratipay text-2xl text-yellow-950 mt-5"></i>
+
+            </aside>
+
+
+        </div>
+    
+    </section>
+
+
+
+    <section id="gift" class="flex flex-col items-center justify-center bg-yellow-950">
+
+        <div class="flex flex-col items-center text-sm text-center py-5 text-yellow-200">
+
+            <p id="publicSans" class="text-xs mb-3">
+                menjadi suatu kehormatan bagi kami sekeluarga apabila Bapak/Ibu/Saudara(i) berkenan hadir dan memberikan doa kepada putra-putri kami. Atas kehadiran serta doanya, kami ucapkan terima kasih. 
+            </p>
+
+            <p id="breathney" class="text-sm font-medium border-t border-yellow-200 pt-3">
+                Wassalamu'alaikum Wr. Wb.
+            </p>
+
+        </div>
 
         
-        <div class="flex flex-col items-center justify-center gap-4 shadow-xl shadow-black/80 bg-black/80 text-white p-2 min-h-[550px] min-w-[250px] max-w-[250px] border-4 rounded-2xl border-double border-white mr-2">
+        <div class="flex flex-col bg-yellow-200 items-center justify-center gap-4 p-2">
 
-            <article class="flex flex-col gap-5 justify-center items-center text-white">
+            <article class="flex flex-col gap-5 justify-center items-center">
 
-                <p id="breathney" class="font-medium text-xl text-center text-yellow-500 border-b border-yellow-500 pb-2 mt-5 mb-2">
+                <p id="breathney" class="font-medium text-xl text-center text-yellow-950 border-b border-yellow-950 pb-3 mt-5 mb-2">
                     Send A Gift.
                 </p>
 
-                <details class="flex flex-col items-center text-center">
+                <details class="flex flex-col justify-center items-center text-center">
                     
-                    <summary class="flex justify-center bg-blue-500 gap-2 hover:bg-white hover:text-blue-500 rounded-xl border-2 hover:border-blue-500 py-1 px-3 ">
-                        
+                    <summary class="flex justify-center items-center text-center gap-1 border shadow shadow-yellow-950 hover:bg-yellow-950 hover:text-yellow-200 hover:shadow-none active:shadow-none visited:shadow-none  rounded-lg border-yellow-950 text-yellow-950 py-1 px-7">
+
                         <i class="fa-solid fa-wallet text-xl"></i>
-                        <p id="publicSans" class="text-xl">VIA DANA</p>
+                        
+                        <p id="publicSans" class="text-xl">VIA DANA</p>    
                         
                     </summary>
-                    
-                    <img src="akun-dana.jpeg" alt="" class="flex justify-center border rounded-xl p-2 max-w-40 max-h-40 mt-2">
-                    
+
+                    <div class="flex flex-col gap-1 justify-center items-center border rounded-xl border-yellow-950 p-2 mt-2">
+                        
+                        <img src="akun-dana.jpeg" alt="" class="max-w-40 max-h-40 rounded-xl">
+                        
+                        <p id="publicSans" class="text-lg text-yellow-950">
+                            a.n Nur Wahyudi
+                        </p>
+                        
+                    </div>
+
                 </details>
                 
-                <div class="flex flex-col border rounded-xl py-1 px-2 mx-2">
+                <div class="flex flex-col py-1 px-2 mx-2 text-yellow-950">
                     
                     <p id="publicSans" class="text-sm text-center">
-                        atas hadiah dari anda. Kami ucapkan banyak terima kasih.
+                        atas hadiah dari anda, tak ada kata lain yang pantas kami ucapkan selain,
                     </p>
-            
+                    
+                    <p id="publicSans" class="text-sm text-center">
+                        "Jazakallahu Khairan Katsiran."
+                    </p>
                 </div>
             
                 
             </article>
 
         </div>
-            
+    
     </section>
 
+
+    <section>
+
+        <div id="sunset" class="flex flex-col items-center text-center text-yellow-950 min-h-60 min-w-full">
+            
+            <p id="roller-coaster" class="mt-4">
+                See you in our big day
+            </p>
+
+            <main>
+
+                <p id="roller-coaster" class="text-4xl">
+                    yudi & yuri.
+                </p>
+            
+            </main>
+        
+        </div>
+
+        <div class="bg-black min-h-24">
+
+        </div>
+
+    </section>
+    
 <script src="main.js"></script>
 </body>
 </html>

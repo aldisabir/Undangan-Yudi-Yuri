@@ -13,6 +13,40 @@
     src: url(PublicSans.ttf);
 }
 
+@font-face {
+    font-family: 'photoShoting';
+    src: url(Photoshoting.ttf);
+}
+
+
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* section#cover {
+    background-image: url(bg-undangan.jpg);
+    background-size: cover;
+}
+
+div#sampul{
+    background-image: url(Foto-Depan.jpg);
+    background-size: cover;
+} */
+
 p#roller-coaster {
     font-family: rollerCoaster,serif;
 }
@@ -25,36 +59,116 @@ p#breathney {
     font-family: breathney,serif;
 }
 
+p#photoShoting {
+    font-family: photoShoting,serif;
+}
+
+h1 {
+    font-family: breathney,serif;
+}
+
+section#cover {
+
+    background-image: url(bg-undangan.jpg);
+    background-size: cover;
+}
+
+div#sampul{
+    background-image: url(Foto-Depan.jpg);
+    background-size: cover;
+}
+
+#pointer {
+    transform: rotate(180deg);
+}
+
+div#slide01 {
+    animation-name: fade;
+    animation-duration: 15s;
+}
+
+#slide02 {
+    animation-name: fade;
+    animation-duration: 10s;
+    animation-timeline: view();
+    animation-range: 0px 300px;
+}
+
+#slide03 {
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-timeline: view();
+    animation-range: cover 10% cover 25%;
+}
+
 p#nama-yuri , p#nama-yudi {
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-timeline: view();
+    animation-range: cover 10% cover 25%;
     font-family: rollerCoaster, serif;
 }
 
-figure#sunset {
-    background: url(Sunset.jpg);
+
+div#sunset {
+    background-image: url(Sunset.jpg);
     background-size: cover;
     background-position: center;
 }
 
 
-section {
-    background-image: url(bg-undangan.jpg);
-    background-size: cover;
+@keyframes zoomYudi {
+    0% {
+        width: 0;
+        height: 400px;
+        opacity: 0;
+    }
+
+    100% {
+        width: 380px;
+        height: 400px;;
+        opacity: 100%;
+    }
 }
 
-div#yudi-solo{
+
+div#foto-yudi{
+    animation-name: zoomYudi;
+    animation-duration: 1.5s;
+    animation-timeline: view();
+    animation-range: cover 10% cover 25%;
+    width: 380px;
+    height: 400px;
     background-image: url(IMG_yudi.JPG);
     background-size: cover;
     background-position: center;
 }
 
-div#yuri-solo{
+
+
+div#foto-yuri{
+    animation-name: zoomYudi;
+    animation-duration: 1.5s;
+    animation-timeline: view();
+    animation-range: cover 10% cover 25%;
+    width: 380px;
+    height: 400px;
     background-image: url(IMG_yuri.JPG);
     background-size: cover;
-    background-position: left;
+    background-position: top;
+}
+
+#namaLengkap {
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-timeline: view();
+    animation-range: cover 20% cover 25%;
 }
 
 
-img {
+
+img#grid {
+    height: 320px;
+    width: 200px;
     object-fit: cover;
-    object-position: center;
 }

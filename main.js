@@ -1,6 +1,8 @@
-let audio = document.getElementById ('bg-audio')
+const audio = document.getElementById ('bg-audio')
 const playButton = document.getElementById ('play-btn');
 const pauseButton = document.getElementById ('pause-btn');
+const openButton = document.getElementById ('button')
+const cover = document.getElementById ('cover')
 
 
 playButton.addEventListener('click', function() {
@@ -17,3 +19,8 @@ pauseButton.addEventListener('click', function() {
     audio.muted = false;
 })
 
+openButton.addEventListener('click', function() {
+
+    audio.muted = false;
+    cover.className = 'hidden'
+})
