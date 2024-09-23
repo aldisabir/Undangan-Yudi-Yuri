@@ -78,9 +78,6 @@ div#sampul{
     background-size: cover;
 }
 
-#pointer {
-    transform: rotate(180deg);
-}
 
 div#slide01 {
     animation-name: fade;
@@ -163,6 +160,10 @@ div#foto-yuri{
     animation-duration: 5s;
     animation-timeline: view();
     animation-range: cover 20% cover 25%;
+}
+
+#loveIcon {
+    transform: rotate(340deg);
 }
 
 
